@@ -11,9 +11,11 @@ export default function Home() {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
-      <Title level={2} className="text-sky-700 text-3xl">Welcome to the Wizard</Title>
+    <div className='text-center flex justify-center'>
+     <div className='flex flex-col'>
+     <Title level={2} className="text-sky-700 text-3xl">Welcome to the Wizard</Title>
       <Button type="primary" onClick={startWizard}>Start Wizard</Button>
+     </div>
     </div>
   );
 }
