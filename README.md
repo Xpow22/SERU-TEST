@@ -52,7 +52,7 @@ Click on the browser menu (usually represented by three dots).
 Look for an option like "Install" or "Add to Home screen".
 Follow the prompts to download and install the app on your device.
 Once installed, the PWA will be accessible directly from your device's home screen, providing an app-like experience with offline capabilities.
-![pwa](/pwa.png)
+![pwa](/public/pwa.png)
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
