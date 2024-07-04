@@ -134,7 +134,7 @@ export default function WizardStep2() {
             <Form
                 form={form}
                 onFinish={onNext}
-                initialValues={{ selfie, ktp, freePhoto }} // Inisialisasi nilai dari localStorage
+                initialValues={{ selfie, ktp, freePhoto }}
             >
                 <div>
                     <Title level={5} style={{ paddingBottom: "10px", marginTop: "5px" }}>Foto SIM</Title>
