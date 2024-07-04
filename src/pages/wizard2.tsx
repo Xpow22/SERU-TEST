@@ -216,13 +216,6 @@ export default function WizardStep2() {
                     </Form.Item>
                     <Text type="secondary">* Data pada KTP Tertanggung harus terlihat jelas</Text>
                 </div>
-
-                {/* {photoRequired && (
-          <Text type="danger" style={{ marginTop: '10px' }}>
-            Harap lengkapi semua form foto sebelum melanjutkan!
-          </Text>
-        )} */}
-
                 <Button type="primary" htmlType="submit">
                     Next
                 </Button>
